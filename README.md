@@ -31,9 +31,9 @@ The solution is designed to handle events efficiently and manage long-running pr
 
 ## Architecture
 
-- **EventDispatcher**: Handles publishing events and dispatching them to the appropriate handlers.
+- **EventBus**: Handles publishing events and dispatching them to the appropriate handlers.
 - **SagaOrchestrator**: Manages the lifecycle and events for sagas.
-- **EventBusBuilder**: Helps in configuring and building the event handling infrastructure.
+- **BusBuilder**: Helps in configuring and building the event handling infrastructure.
 
 ## Getting Started
 
